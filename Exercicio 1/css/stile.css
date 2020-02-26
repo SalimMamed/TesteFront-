@@ -1,0 +1,13 @@
+
+#estruraform{
+
+    width:700px; 
+    height:950px; 
+    background: black;
+    left:50%;
+    top:20%;
+    margin-left:-300px; 
+    margin-top:-70px;
+    position:absolute;
+    color: whitesmokes;
+}

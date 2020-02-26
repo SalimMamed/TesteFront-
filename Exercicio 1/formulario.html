@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+
+<body>
+
+    <header class=" col-lg-12  bg-dark text-light ">
+        <div class=" row " id="cabecalho">
+            <div class=" col-md-2 mt-2 ">
+
+            </div>
+            <h1 class=" col-md-8 text-center mt-4 "> Formulario </h1>
+
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <form id="estruraform" class="row mt-4 ">
+            <div class="col -md-4 p-2">
+                <header class="bg-dark text-light p-2"> Dados </header>
+
+                <div class="p-2">
+                    <label for="nomeMedico">Nome Medico*</label>
+                    <input class="form-control" type="text" id="nomeMedico" name="nomeMedico"
+                        placeholder="Digite nome do Medico">
+                </div>
+                <div class="p-2">
+                    <label for="CRMuser">CRM*</label>
+                    <input class="form-control" type="text" id="CRMuser" name="CRMuser" placeholder="Digite o CRM">
+                </div>
+                <div class="p-2">
+                    <label for="receita">Data Receita*</label>
+                    <input class="form-control" type="date" id="receita" name="receita">
+                </div>
+                <div class="p-2">
+                    <label for="emailUser">Quantidade de Caixas*</label>
+                    <input class="form-control" type="number" id="emailUser" name="emailUser"
+                        placeholder="Digite seu Email">
+                </div>
+                <div class="p-2">
+                    <label for="paciente"> Nome Paciente*</label>
+                    <input class="form-control" type="text" id="paciente" name="paciente" placeholder="Digite o Nome">
+                </div>
+                <div class="p-2">
+                    <label for="cpfuser">CPF*</label>
+                    <input class="form-control" type="text" maxlength="18" id="cpfuser" name="cpfuser"
+                        placeholder="Digite o CPF">
+                </div>
+                <div class="p-2">
+                    <label for="DN">Data de Nascimento*</label>
+                    <input class="form-control" type="date" id="DN" name="DN">
+                </div>
+
+                <div class="form-groump row p-2">
+                    <div class=" p-2">
+                        <label>Sexo*</label><br>
+                        <input class="form-groump" type="radio" id="sx" name="sx" value="Masculino"> Masculino
+                        <input class="form-groump" type="radio" id="sx" name="sx" value="Feminino"> Feminino
+
+                    </div>
+                </div>
+                <div class="col -md-4 form-groump row p-2 ">
+                    <div class=" p-2">
+                        <label>Tipo de Envio*</label><br>
+                        <label for="WhatsApp">WhatsApp*</label>
+                        <input class="form-groump" type="radio" id="WhatsApp" name="WhatsApp">
+                        <input class="form-control" type="tel" id="numwhats" name="numwhats" placeholder="WhatsApp">
+
+
+                    </div>
+                    <div class="col -md-4 form-groump row p-2 ">
+                    <div class="p-2 ">
+                        <label>  </label><br>
+                        <label for="email">Email*</label>
+                        <input class="form-groump" type="radio" id="email" name="email">
+                        <input class="form-control" type="email" id="emailUser" name="emailUser"
+                            placeholder="Digite seu Email">
+                    </div>
+
+        
+                </div>
+                </div>
+            </div>
+
+
+
+
+        </form>
+
+    </main>
+
+
+</body>
+
+</html>
